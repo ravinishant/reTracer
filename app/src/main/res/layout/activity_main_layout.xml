@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:text="Capture Barcode Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchBarcodeActivity"
+        android:textColor="#f0f"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:text="Get Current Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchLocationActivity"
+        android:textColor="#f0f"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:text="Location Lists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchLocationList"
+        android:textColor="#f0f"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:text="Show Direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchDirectionActivity"
+        android:textColor="#f0f"
+        android:textSize="18dp"
+        />
+
+</LinearLayout>
